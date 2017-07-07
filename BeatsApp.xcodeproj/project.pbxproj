@@ -7,21 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3666C16C7C7CF3AD53370002 /* Pods_BeatsApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C881B324E1381244ED51BC8 /* Pods_BeatsApp.framework */; };
 		9DA2F8A51F0F7FA100A976D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA2F8A41F0F7FA100A976D0 /* AppDelegate.swift */; };
 		9DA2F8A71F0F7FA100A976D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA2F8A61F0F7FA100A976D0 /* ViewController.swift */; };
-		9DA2F8AA1F0F7FA100A976D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DA2F8A81F0F7FA100A976D0 /* Main.storyboard */; };
 		9DA2F8AC1F0F7FA100A976D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DA2F8AB1F0F7FA100A976D0 /* Assets.xcassets */; };
 		9DA2F8AF1F0F7FA100A976D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DA2F8AD1F0F7FA100A976D0 /* LaunchScreen.storyboard */; };
+		9DA2F8BC1F0F803400A976D0 /* Headphone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA2F8BB1F0F803400A976D0 /* Headphone.swift */; };
+		9DA2F8C01F0F814300A976D0 /* ShowcaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA2F8BF1F0F814300A976D0 /* ShowcaseCell.swift */; };
+		9DE6D4D41F0F888A00036520 /* UIFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE6D4D31F0F888A00036520 /* UIFactory.swift */; };
+		9DE6D4D71F0F8C6200036520 /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE6D4D61F0F8C6200036520 /* Reusable.swift */; };
+		9DE6D4DA1F0F8ED700036520 /* UIView+Anchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE6D4D91F0F8ED700036520 /* UIView+Anchors.swift */; };
+		9DE6D4DC1F0F998F00036520 /* String+Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE6D4DB1F0F998E00036520 /* String+Styles.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		456408F46B90A29BC8286CFD /* Pods-BeatsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeatsApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-BeatsApp/Pods-BeatsApp.release.xcconfig"; sourceTree = "<group>"; };
+		7C881B324E1381244ED51BC8 /* Pods_BeatsApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeatsApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DA2F8A11F0F7FA100A976D0 /* BeatsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeatsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DA2F8A41F0F7FA100A976D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9DA2F8A61F0F7FA100A976D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9DA2F8A91F0F7FA100A976D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9DA2F8AB1F0F7FA100A976D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9DA2F8AE1F0F7FA100A976D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9DA2F8B01F0F7FA100A976D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DA2F8BB1F0F803400A976D0 /* Headphone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Headphone.swift; sourceTree = "<group>"; };
+		9DA2F8BF1F0F814300A976D0 /* ShowcaseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowcaseCell.swift; sourceTree = "<group>"; };
+		9DE6D4D31F0F888A00036520 /* UIFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFactory.swift; sourceTree = "<group>"; };
+		9DE6D4D61F0F8C6200036520 /* Reusable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
+		9DE6D4D91F0F8ED700036520 /* UIView+Anchors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Anchors.swift"; sourceTree = "<group>"; };
+		9DE6D4DB1F0F998E00036520 /* String+Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Styles.swift"; sourceTree = "<group>"; };
+		ECB0A31E309242DD6CB31EF5 /* Pods-BeatsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeatsApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BeatsApp/Pods-BeatsApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3666C16C7C7CF3AD53370002 /* Pods_BeatsApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +55,8 @@
 			children = (
 				9DA2F8A31F0F7FA100A976D0 /* BeatsApp */,
 				9DA2F8A21F0F7FA100A976D0 /* Products */,
+				B355142C6B8B456F76E181BC /* Pods */,
+				F68B965E6BA6A77E6D8FBDC8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +71,92 @@
 		9DA2F8A31F0F7FA100A976D0 /* BeatsApp */ = {
 			isa = PBXGroup;
 			children = (
-				9DA2F8A41F0F7FA100A976D0 /* AppDelegate.swift */,
-				9DA2F8A61F0F7FA100A976D0 /* ViewController.swift */,
-				9DA2F8A81F0F7FA100A976D0 /* Main.storyboard */,
+				9DA2F8B61F0F7FAD00A976D0 /* Application */,
+				9DA2F8B71F0F7FB500A976D0 /* Model */,
+				9DA2F8B81F0F7FBD00A976D0 /* View */,
+				9DA2F8B91F0F7FC400A976D0 /* Controller */,
+				9DA2F8BA1F0F7FDB00A976D0 /* Interface */,
+				9DE6D4D51F0F8C4B00036520 /* Protocols */,
+				9DE6D4D81F0F8EC100036520 /* Extensions */,
 				9DA2F8AB1F0F7FA100A976D0 /* Assets.xcassets */,
-				9DA2F8AD1F0F7FA100A976D0 /* LaunchScreen.storyboard */,
-				9DA2F8B01F0F7FA100A976D0 /* Info.plist */,
 			);
 			path = BeatsApp;
+			sourceTree = "<group>";
+		};
+		9DA2F8B61F0F7FAD00A976D0 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				9DA2F8A41F0F7FA100A976D0 /* AppDelegate.swift */,
+				9DA2F8B01F0F7FA100A976D0 /* Info.plist */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		9DA2F8B71F0F7FB500A976D0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9DA2F8BB1F0F803400A976D0 /* Headphone.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9DA2F8B81F0F7FBD00A976D0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9DE6D4D31F0F888A00036520 /* UIFactory.swift */,
+				9DA2F8BF1F0F814300A976D0 /* ShowcaseCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9DA2F8B91F0F7FC400A976D0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9DA2F8A61F0F7FA100A976D0 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9DA2F8BA1F0F7FDB00A976D0 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				9DA2F8AD1F0F7FA100A976D0 /* LaunchScreen.storyboard */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		9DE6D4D51F0F8C4B00036520 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				9DE6D4D61F0F8C6200036520 /* Reusable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		9DE6D4D81F0F8EC100036520 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9DE6D4D91F0F8ED700036520 /* UIView+Anchors.swift */,
+				9DE6D4DB1F0F998E00036520 /* String+Styles.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B355142C6B8B456F76E181BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ECB0A31E309242DD6CB31EF5 /* Pods-BeatsApp.debug.xcconfig */,
+				456408F46B90A29BC8286CFD /* Pods-BeatsApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F68B965E6BA6A77E6D8FBDC8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C881B324E1381244ED51BC8 /* Pods_BeatsApp.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +166,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9DA2F8B31F0F7FA100A976D0 /* Build configuration list for PBXNativeTarget "BeatsApp" */;
 			buildPhases = (
+				89D8B1718236663023170B84 /* [CP] Check Pods Manifest.lock */,
 				9DA2F89D1F0F7FA100A976D0 /* Sources */,
 				9DA2F89E1F0F7FA100A976D0 /* Frameworks */,
 				9DA2F89F1F0F7FA100A976D0 /* Resources */,
+				F1711921CBE90AC6F2090C1F /* [CP] Embed Pods Frameworks */,
+				3DD9863487EFC0C4D077644D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +194,7 @@
 				TargetAttributes = {
 					9DA2F8A01F0F7FA100A976D0 = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
 					};
 				};
 			};
@@ -124,33 +223,78 @@
 			files = (
 				9DA2F8AF1F0F7FA100A976D0 /* LaunchScreen.storyboard in Resources */,
 				9DA2F8AC1F0F7FA100A976D0 /* Assets.xcassets in Resources */,
-				9DA2F8AA1F0F7FA100A976D0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3DD9863487EFC0C4D077644D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BeatsApp/Pods-BeatsApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89D8B1718236663023170B84 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F1711921CBE90AC6F2090C1F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BeatsApp/Pods-BeatsApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9DA2F89D1F0F7FA100A976D0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DE6D4D71F0F8C6200036520 /* Reusable.swift in Sources */,
 				9DA2F8A71F0F7FA100A976D0 /* ViewController.swift in Sources */,
+				9DA2F8BC1F0F803400A976D0 /* Headphone.swift in Sources */,
+				9DA2F8C01F0F814300A976D0 /* ShowcaseCell.swift in Sources */,
+				9DE6D4DC1F0F998F00036520 /* String+Styles.swift in Sources */,
 				9DA2F8A51F0F7FA100A976D0 /* AppDelegate.swift in Sources */,
+				9DE6D4D41F0F888A00036520 /* UIFactory.swift in Sources */,
+				9DE6D4DA1F0F8ED700036520 /* UIView+Anchors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9DA2F8A81F0F7FA100A976D0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9DA2F8A91F0F7FA100A976D0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9DA2F8AD1F0F7FA100A976D0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -182,6 +326,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
@@ -208,7 +354,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -237,6 +383,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
@@ -257,7 +405,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -267,12 +415,15 @@
 		};
 		9DA2F8B41F0F7FA100A976D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECB0A31E309242DD6CB31EF5 /* Pods-BeatsApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = BeatsApp/Info.plist;
+				DEVELOPMENT_TEAM = 2297EX72GB;
+				INFOPLIST_FILE = "$(SRCROOT)/BeatsApp/Application/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.byteorbit.malcolm.BeatsApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -280,12 +431,15 @@
 		};
 		9DA2F8B51F0F7FA100A976D0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 456408F46B90A29BC8286CFD /* Pods-BeatsApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = BeatsApp/Info.plist;
+				DEVELOPMENT_TEAM = 2297EX72GB;
+				INFOPLIST_FILE = "$(SRCROOT)/BeatsApp/Application/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.byteorbit.malcolm.BeatsApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -310,6 +464,7 @@
 				9DA2F8B51F0F7FA100A976D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
