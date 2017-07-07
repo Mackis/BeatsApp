@@ -33,7 +33,7 @@ class ShowcaseCell: UICollectionViewCell {
     
     let wishListButton: UIButton = {
         let button = UIButton(type: .system)
-        button.setAttributedTitle("WISH LIST".styleTitle(), for: .normal)
+        button.setAttributedTitle("PURCHASE".styleTitle(), for: .normal)
         button.setTitleColor(UIColor.white, for: .normal)
         button.addTarget(self, action: #selector(wishList), for: .touchUpInside)
         button.layer.borderColor = UIColor.white.cgColor
@@ -69,11 +69,14 @@ class ShowcaseCell: UICollectionViewCell {
         return label
     }()
     
+    let offsetSpeed: CGFloat = 25.0
+    
     var headphone: Headphone?  {
         didSet {
             self.setupViews()
         }
     }
+    
     
     func setupViews(){
         // 1. Add subviews
@@ -114,3 +117,5 @@ class ShowcaseCell: UICollectionViewCell {
         
     }
 }
+
+
